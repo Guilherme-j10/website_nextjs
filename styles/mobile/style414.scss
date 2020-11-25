@@ -1,0 +1,367 @@
+@media(max-width: 414px){
+    .PrincipalContainer{
+        header{
+            flex-direction: column;
+            padding: 3.5% 0%;
+
+            .imagemLogo{
+                width: 15%;
+            }
+
+            .rightSide{
+                .listMobile{
+                    margin-top: 20px;
+                    display: flex;
+                    margin-right: 0px;
+                    li{
+                        a{
+                            color: #FFF;
+                            margin: 0px 10px;
+                            font-weight: 500;
+                            white-space: nowrap;
+
+                            i{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .listDesktop{
+                    display: none;
+                }
+                .contactLink{
+                    display: none;
+                }
+            }
+        }
+
+        .Banner{
+            flex-direction: column;
+            padding: 12% 5%;
+
+            .side{
+                width: 100%;
+                justify-content: center;
+
+                small, h1, p{
+                    text-align: center;
+                }
+                
+                .double{
+                    flex-direction: column;
+                    margin-bottom: 40px;
+
+                    a{
+                        width: 100%;
+                        text-align: center;
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+
+        .about{
+            padding: 12% 5%;
+
+            .svgSide{
+                display: none;
+            }
+
+            .InformationSide{
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+                justify-content: center;
+                align-items: center;
+
+                small, h1, p{
+                    text-align: center;
+                }
+            }
+        }
+
+        .product{
+            padding: 12% 5%;
+
+            .HeaderContainer{
+                justify-content: center;
+
+                small, h1{
+                    text-align: center;
+                }
+            }
+
+            .ProductApresentation{
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .feature{
+            padding: 12% 5%;
+
+            .HeaderContainer{
+                justify-content: center;
+
+                small, h1{
+                    text-align: center;
+                }
+            }
+
+            .ContainerBox{
+                grid-template-columns: 1fr;
+
+                .Box{
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+
+        .formularioEmail{
+            padding: 0px;
+
+            .vamosla{
+               border-radius: 0px;
+               box-shadow: none; 
+               padding: 12% 5%;
+
+                .EntreContato{
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+
+                   small, h1{
+                        text-align: center;
+                   }
+                }
+
+                form{
+                    width: 100%;
+                }
+            }
+        }
+
+        .footerSection{
+            padding: 12% 5%;
+
+            .linkWhats{
+                width: 60px;
+                bottom: 20px;
+                right: 20px;
+                height: 60px;
+                position: fixed;
+            }
+
+            .sideTop{
+                grid-template-columns:  1fr;
+                grid-gap: 40px;
+
+                .division{
+                    h1, p, a{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .sideBottom{
+                flex-direction: column;
+                
+                .anotherSideBottom{
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 25px;
+                    
+                    p{
+                        text-align: center;
+                    }
+
+                    ul{
+                        li{
+                            a{
+                                margin-left: 15px !important;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+                }
+
+                .anotherSideBottom:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .bannerContainer{
+            .filterCammad{
+                padding: 0% 5%;
+                h1, p{
+                    text-align: center;
+                }
+            }
+        }
+
+        .AnimeMyFriend{
+            width: 100%;
+            padding: 12% 5% !important;
+            display: flex;
+            flex-direction: column;
+
+            .text{
+                h1, p{
+                    text-align: center;
+                }
+            }
+
+            .boxes{
+                width: 100% !important;
+
+                ul{
+                    width: 100%;
+                    padding: 0px;
+                    li{
+                        width: 100%;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        i{ 
+                            margin: 0px;
+                            margin-bottom: 20px;
+                        }
+
+                        .informationSideRightLi{
+                            width: 100%;
+                            margin: 0px;
+                            h1, p{
+                                text-align: center;
+                                margin: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .textRight{
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+
+                h1{
+                    font-size: 2em;
+                }
+
+                h1, p{
+                    text-align: center;
+                }
+            }
+        }
+
+        .lineProduction{
+            padding: 0px;
+
+            .linesection{
+                flex-direction: column;
+                padding: 12% 5%;
+
+                .caSide{
+                    h1, p{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+
+                a{
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        .vamoslapessoaslegais{
+            grid-template-columns: 1fr;
+            background-color: #f3f3f3;
+            padding: 12% 5%;
+        }
+
+        .contatoContainers{
+            padding: 12% 5%;
+
+            .firstContainerContato{
+                grid-template-columns: 1fr;
+
+                .letsGoBaby{
+                    padding: 0px;
+
+                    ul, .sencodListContianers{
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .sencodListContianers{
+                        li{
+                            justify-content: flex-start;
+                            align-items: center;
+                        }
+                    }
+
+                    .headerContainerContatoFist{
+                        h1{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .AllRightMyBrother{
+                display: flex;
+                margin-top: 30px;
+                flex-direction: column;
+
+                .anotherSideContainerPlace{
+                    width: 100%;
+
+                    .toldtoyour{
+                        width: 100%;
+                        border-radius: 0px;
+                        
+                        a{
+                            margin-left: -150px;
+                        }
+                    }
+                }
+
+                .map{
+                    height: auto;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .secondPlace{
+            flex-direction: column;
+            padding: 12% 5%;
+
+            article{
+                .DividSideContainer{
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            aside{
+                width: 100%;
+                margin-left: 0px;
+                margin-top: 50px;
+            }
+        }
+
+        .modal{
+            .containerModal{
+                width: 90%;
+            }
+        }
+    }
+}
